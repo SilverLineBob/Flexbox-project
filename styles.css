@@ -1,0 +1,176 @@
+/* General */
+
+html {
+    font-size: 16px;
+
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+
+
+/* Navigation */
+.main{
+    text-align: center;
+}
+
+
+nav ul {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+nav li {
+    display: inline;
+    margin: auto 5rem;
+}
+
+ nav a {
+     color: black;
+ }
+
+/*Banner*/
+
+ .banner {
+     text-align: center;
+     background-image: url("sanibell-bv-VD0pz3FNioM-unsplash.jpg");
+     position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 400px;
+     display: flex;
+     align-content: center;
+     justify-content: center;
+ }
+
+ .inner_banner {
+     margin: auto;
+     background: aliceblue;
+     width: 100%;
+ }
+
+ .banner h2 {
+     margin-bottom: 0;
+ }
+
+.banner h3 {
+    margin-top: 5px;
+}
+
+
+
+
+
+/*Portfolio*/
+
+.portfolio {
+    text-align: center;
+
+}
+ .pictures {
+     display: inline-flex;
+     flex-wrap: wrap;
+     width: 100%;
+     justify-content: space-around;
+     white-space: nowrap;
+
+ }
+
+
+.image_box {
+    width: 20%;
+    margin: 0 50px;
+    display: inline-flex;
+
+}
+
+.image_box img {
+    width: 100%;
+    height: 70%;
+
+}
+
+.image_box h3 {
+    margin-left: 1rem;
+    margin-top: 7rem;
+
+}
+
+
+
+/*Team*/
+.team {
+text-align: center;
+    display: flex;
+    background-image: url("ethan-yap-Ua1GeCn2TvY-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image_box_team {
+    display: inline-block;
+
+}
+
+.border {
+    border: 2px solid white;
+    margin: 1rem 1rem;
+}
+
+
+
+
+
+.team_general h3 {
+    text-align: center;
+}
+
+.team img {
+    width: 70%;
+    height: 70%;
+}
+
+.image_box_team {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.team h3, .team h4 {
+    color: white;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+}
+
+#copyright {
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+

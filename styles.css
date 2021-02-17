@@ -35,17 +35,27 @@ h4 {
 
 nav ul {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
+
 }
 
 nav li {
     display: inline;
-    margin: auto 5rem;
+    margin: 2rem 1rem;
 }
 
  nav a {
      color: black;
  }
+
+ @media only screen and (max-width: 660px) {
+     nav li {
+         display:block;
+         margin: auto 2rem;}
+
+
+ }
+
 
 /*Banner*/
 
@@ -119,21 +129,12 @@ nav li {
 /*Team*/
 .team {
 text-align: center;
-    display: flex;
+    display: inline-flex;
     background-image: url("ethan-yap-Ua1GeCn2TvY-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-}
+    flex-direction: row;}
 
-.image_box_team {
-    display: inline-block;
-
-}
-
-.border {
-    border: 2px solid white;
-    margin: 1rem 1rem;
-}
 
 
 
@@ -141,6 +142,7 @@ text-align: center;
 
 .team_general h3 {
     text-align: center;
+
 }
 
 .team img {
@@ -149,12 +151,31 @@ text-align: center;
 }
 
 .image_box_team {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     width: 100%;
 }
 
-.team h3, .team h4 {
+.team h3 {
     color: white;
+    font-size: 3vw;
+
+}
+
+.team h4 {
+    font-size: 2vw;
+    color: white;
+}
+
+@media only screen and (max-width: 660px)
+{
+    .team {
+        flex-direction: column;
+    }
+
+    .team img {
+        width: 40%;
+        height: 40%;
+    }
 }
 
 /*Footer*/
